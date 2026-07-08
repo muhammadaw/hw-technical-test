@@ -1,0 +1,12 @@
+{
+  "name": "task-2-cron",
+  "version": "1.0.0",
+  "main": "scheduler.js",
+  "scripts": {
+    "start": "node scheduler.js",
+    "test": "node test-cron.js"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3"
+  }
+}
